@@ -1,0 +1,39 @@
+[0.434s] Invoking command in '/home/hadnan/ros2_ws/src/my_environments': PYTHONPATH=/home/hadnan/ros2_ws/src/my_environments/build/my_environments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_environments build --build-base /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build install --record /home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log --single-version-externally-managed install_data
+[0.581s] running egg_info
+[0.581s] creating build/my_environments/my_environments.egg-info
+[0.581s] writing build/my_environments/my_environments.egg-info/PKG-INFO
+[0.581s] writing dependency_links to build/my_environments/my_environments.egg-info/dependency_links.txt
+[0.581s] writing entry points to build/my_environments/my_environments.egg-info/entry_points.txt
+[0.582s] writing requirements to build/my_environments/my_environments.egg-info/requires.txt
+[0.582s] writing top-level names to build/my_environments/my_environments.egg-info/top_level.txt
+[0.582s] writing manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+[0.584s] reading manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+[0.584s] writing manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.584s] creating /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build
+[0.585s] creating /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib
+[0.585s] creating /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib/my_environments
+[0.585s] copying my_environments/__init__.py -> /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib/my_environments
+[0.586s] running install
+[0.586s] running install_lib
+[0.586s] creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments
+[0.586s] copying /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib/my_environments/__init__.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments
+[0.587s] byte-compiling /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments/__init__.py to __init__.cpython-310.pyc
+[0.587s] running install_data
+[0.587s] creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index
+[0.587s] creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index/resource_index
+[0.587s] creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index/resource_index/packages
+[0.588s] copying resource/my_environments -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index/resource_index/packages
+[0.588s] copying package.xml -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments
+[0.588s] creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+[0.588s] copying launch/outdoor_launch.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+[0.588s] copying launch/indoor_launch.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+[0.588s] creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/worlds
+[0.588s] copying worlds/outdoor.wbt -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/worlds
+[0.588s] copying worlds/indoor.wbt -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/worlds
+[0.589s] running install_egg_info
+[0.590s] Copying build/my_environments/my_environments.egg-info to /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments-0.0.0-py3.10.egg-info
+[0.591s] running install_scripts
+[0.605s] writing list of installed files to '/home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log'
+[0.622s] Invoked command in '/home/hadnan/ros2_ws/src/my_environments' returned '0': PYTHONPATH=/home/hadnan/ros2_ws/src/my_environments/build/my_environments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_environments build --build-base /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build install --record /home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[0.439s] Invoking command in '/home/hadnan/ros2_ws/src/my_environments': PYTHONPATH=/home/hadnan/ros2_ws/src/my_environments/build/my_environments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_environments build --build-base /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build install --record /home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log --single-version-externally-managed install_data
+[0.601s] running egg_info
+[0.601s] writing build/my_environments/my_environments.egg-info/PKG-INFO
+[0.601s] writing dependency_links to build/my_environments/my_environments.egg-info/dependency_links.txt
+[0.602s] writing entry points to build/my_environments/my_environments.egg-info/entry_points.txt
+[0.602s] writing requirements to build/my_environments/my_environments.egg-info/requires.txt
+[0.602s] writing top-level names to build/my_environments/my_environments.egg-info/top_level.txt
+[0.603s] reading manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+[0.604s] running build
+[0.604s] running build_py
+[0.604s] running install
+[0.604s] running install_lib
+[0.605s] running install_data
+[0.605s] copying launch/outdoor_launch.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+[0.605s] copying launch/indoor_launch.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+[0.606s] running install_egg_info
+[0.607s] removing '/home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments-0.0.0-py3.10.egg-info' (and everything under it)
+[0.607s] Copying build/my_environments/my_environments.egg-info to /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments-0.0.0-py3.10.egg-info
+[0.608s] running install_scripts
+[0.623s] writing list of installed files to '/home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log'
+[0.640s] Invoked command in '/home/hadnan/ros2_ws/src/my_environments' returned '0': PYTHONPATH=/home/hadnan/ros2_ws/src/my_environments/build/my_environments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_environments build --build-base /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build install --record /home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log --single-version-externally-managed install_data

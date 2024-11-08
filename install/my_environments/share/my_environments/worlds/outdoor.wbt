@@ -1,0 +1,2054 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadLine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadIntersection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/CrossRoadsTrafficLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/StripBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Church.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/BigSassafras.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/FastFoodRestaurant.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SimpleBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/ParkingLines.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/BusStop.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Bench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/generic/Bus.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SmallResidentialTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/CautionSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/RandomBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SmallManor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SimpleTwoFloorsHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Forest.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Museum.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StopSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CrashBarrier.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.19004936054346291 -0.13952679550835545 -0.9718094020394075 4.38100350757019
+  position 233.59258816534108 -412.9426101727178 268.17802486179943
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+StraightRoadSegment {
+  translation 0 -8 0
+  width 10
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  rightBarrier TRUE
+  leftBarrier TRUE
+  length 109
+}
+StraightRoadSegment {
+  translation 128.91 -8 0
+  name "road(16)"
+  width 10
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 109
+  locked FALSE
+}
+CrashBarrier {
+  translation 237.92 -84.3398 0
+  rotation 0 0 1 1.5708
+  name "crash barrier(7)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+StopSign {
+  translation 127.54 69.01 0
+}
+StopSign {
+  translation 111.59 225.76 0
+  rotation 0 0 1 3.14159
+  name "stop sign(4)"
+}
+StopSign {
+  translation 111.59 56.93 0
+  rotation 0 0 1 3.14159
+  name "stop sign(1)"
+}
+StopSign {
+  translation 111.59 69.04 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "stop sign(2)"
+}
+StraightRoadSegment {
+  translation 128.91 63.19 0
+  name "road(28)"
+  width 10
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 109
+  locked FALSE
+}
+CrashBarrier {
+  translation 237.06 -15.5398 0
+  rotation 0 0 1 1.5708
+  name "crash barrier(6)"
+  path [
+    0 0 0
+    16 0 0
+  ]
+}
+StraightRoadSegment {
+  translation 128.91 -78.94 0
+  name "road(18)"
+  width 10
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  rightBarrier TRUE
+  length 109
+  locked FALSE
+}
+CrashBarrier {
+  translation 112.58 -88.02 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "crash barrier(8)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+RandomBuilding {
+  translation 69.55 40.66 0
+  rotation 0 0 1 1.01503e-06
+  name "building(2)"
+  corners [
+    10 10
+    15 -10
+    -15 -10
+    -10 10
+  ]
+  roofColor [
+    0 0 0
+  ]
+  roofShape "hipped roof"
+}
+BigSassafras {
+  translation -30.19 -33.84 -0.53
+  name "sassafras tree(4)"
+}
+Floor {
+  translation -78 -45 0
+  name "floor(1)"
+  size 124 34
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+BigSassafras {
+  translation -128.17 -36.06 -0.53
+  name "sassafras tree(8)"
+}
+BigSassafras {
+  translation -73.05 -33.84 -0.53
+  name "sassafras tree(7)"
+}
+BigSassafras {
+  translation -66.2 -33.84 -0.53
+  name "sassafras tree(6)"
+}
+BigSassafras {
+  translation -21.76 -33.84 -0.53
+  name "sassafras tree(5)"
+}
+SmallResidentialTower {
+  translation -112.9 -48.12 0
+  rotation 0 0 1 1.5708
+  name "residential tower(4)"
+  numberOfFloors 4
+}
+SmallResidentialTower {
+  translation -93.1599 251.3 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "residential tower(8)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -93.1599 263.79 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "residential tower(9)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -93.1601 348.72 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "residential tower(10)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -93.16 361.2 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "residential tower(11)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -93.1601 373.95 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "residential tower(12)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -93.1603 386.59 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "residential tower(13)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -56.6 48.5 0
+  rotation 0 0 1 1.5708
+  name "residential tower(5)"
+  numberOfFloors 4
+}
+Floor {
+  translation -81 28 0
+  name "floor(9)"
+  size 123 34
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+Floor {
+  translation -80 148 0
+  name "floor(5)"
+  size 124 152
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+SmallManor {
+  translation -166.81 213.95 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(40)"
+}
+SmallManor {
+  translation -187.99 213.95 0
+  rotation 0 0 1 1.5708
+  name "small manor(45)"
+}
+SmallManor {
+  translation -255.07 213.95 0
+  rotation 0 0 1 1.5708
+  name "small manor(46)"
+}
+SmallManor {
+  translation -166.81 199.12 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(41)"
+}
+SmallManor {
+  translation -166.81 181.96 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(42)"
+}
+SmallManor {
+  translation -166.81 164.63 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(43)"
+}
+SmallManor {
+  translation -166.81 144.92 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(44)"
+}
+Floor {
+  translation -214 173 0
+  name "floor(19)"
+  size 118 102
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+BusStop {
+  translation -66.0204 383.93 0
+  rotation 0 0 1 -3.1415853071795863
+  scale 1.5
+  name "bus stop(5)"
+}
+BusStop {
+  translation 63.43 218.99 0
+  rotation 0 0 1 1.5708
+  scale 1.5
+  name "bus stop(3)"
+}
+BusStop {
+  translation 4.48996 310.35 0
+  rotation 0 0 1 -3.1415853071795863
+  scale 1.5
+  name "bus stop(6)"
+}
+BusStop {
+  translation 3.631 100.66 0
+  rotation 0 0 1 -3.1415853071795863
+  scale 1.5
+  name "bus stop(4)"
+}
+Floor {
+  translation 54 148 0
+  name "floor(14)"
+  size 112 152
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+Floor {
+  translation 54.5 355 0
+  name "floor(20)"
+  size 111 75.5
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+Floor {
+  translation 54.5 280 0
+  name "floor(21)"
+  size 111 75.5
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Forest {
+  translation -203.435 164.988 -0.18
+  rotation 0 0 1 1.0472
+}
+Forest {
+  translation -236.056 179.326 -0.18
+  rotation 0 0 1 2.0944
+}
+Forest {
+  translation -241.396 142.918 -0.18
+  rotation 0 0 1 2.0944
+}
+Floor {
+  translation -111 317 0
+  name "floor(11)"
+  size 58 151
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+SmallManor {
+  translation -56.47 250.66 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(33)"
+}
+SmallManor {
+  translation -56.4701 267.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(34)"
+}
+SmallManor {
+  translation -56.4701 284.73 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(35)"
+}
+SmallManor {
+  translation -56.4702 303.68 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(36)"
+}
+SmallManor {
+  translation -56.4703 324.02 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(37)"
+}
+SmallManor {
+  translation -56.4703 341.06 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(38)"
+}
+SmallManor {
+  translation 7.93965 347.18 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(49)"
+}
+SmallManor {
+  translation 8.27968 329.83 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(51)"
+}
+SmallManor {
+  translation -56.4705 355.6 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(39)"
+}
+SmallManor {
+  translation 8.27944 363.44 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(48)"
+}
+SmallManor {
+  translation 8.27933 378.98 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(50)"
+}
+Floor {
+  translation -43 317 0
+  name "floor(15)"
+  size 52 151
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+Forest {
+  translation -58.87 152.31 -0.17
+}
+Forest {
+  translation -75.7473 199.336 -0.18
+  rotation 0 0 1 -2.094395307179586
+}
+Forest {
+  translation 69.029 139.972 -0.18
+  rotation 0 0 1 -2.094395307179586
+}
+Forest {
+  translation 40.681 129.492 -0.18
+  rotation 0 0 1 1.0472
+}
+Forest {
+  translation 64.601 170.925 -0.18
+  rotation 0 0 1 1.0472
+}
+Forest {
+  translation 38.8127 173.304 -0.18
+  rotation 0 0 1 -2.094395307179586
+}
+Forest {
+  translation -58.87 173.83 -0.17
+  rotation 0 0 1 3.14159
+}
+Forest {
+  translation -98.05 173.83 -0.17
+  rotation 0 0 1 3.14159
+}
+Forest {
+  translation -83.2966 141.827 -0.17
+  rotation 0 0 1 -1.047195307179586
+}
+SmallManor {
+  translation -125.19 165.4 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(7)"
+}
+SmallManor {
+  translation -125.19 182.9 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(8)"
+}
+SmallManor {
+  translation -125.19 198.73 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(9)"
+}
+SmallManor {
+  translation -125.19 213.95 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(10)"
+}
+SmallManor {
+  translation 9.05 213.95 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(22)"
+}
+SmallManor {
+  translation 9.07013 194.38 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(23)"
+}
+SmallManor {
+  translation 9.07026 177.23 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(24)"
+}
+SmallManor {
+  translation 9.07037 159.63 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(25)"
+}
+SmallManor {
+  translation 9.07053 142.66 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(26)"
+}
+SmallManor {
+  translation 9.07062 124.73 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(27)"
+}
+SmallManor {
+  translation -125.19 250.66 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(11)"
+}
+SmallManor {
+  translation -125.19 267.14 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(12)"
+}
+SmallManor {
+  translation -92.69 282.53 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(15)"
+}
+SmallManor {
+  translation -28.31 251.86 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(28)"
+}
+SmallManor {
+  translation -28.31 268.45 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(29)"
+}
+SmallManor {
+  translation -28.3103 343.58 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(30)"
+}
+SmallManor {
+  translation -28.3103 363.13 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(31)"
+}
+SmallManor {
+  translation -28.3103 382.02 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(32)"
+}
+SmallManor {
+  translation 97.0397 384.96 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(47)"
+}
+SmallManor {
+  translation -92.69 299.6 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(16)"
+}
+SmallManor {
+  translation -92.6901 316.15 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(17)"
+}
+SmallManor {
+  translation -92.69 332.13 0
+  rotation 0 0 1 7.33682e-06
+  name "small manor(18)"
+}
+SmallManor {
+  translation -125.19 283.9 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(13)"
+}
+SmallManor {
+  translation -125.19 382.48 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(14)"
+}
+SmallManor {
+  translation -125.19 118.31 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(4)"
+}
+SmallManor {
+  translation -125.19 132.95 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(5)"
+}
+SmallManor {
+  translation -125.19 148.44 0
+  rotation 0 0 1 -3.1415853071795863
+  name "small manor(6)"
+}
+SmallManor {
+  translation -29.35 187.86 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "small manor(2)"
+}
+SmallManor {
+  translation 94.4403 132.89 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "small manor(19)"
+}
+SmallManor {
+  translation 94.4403 152.47 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "small manor(20)"
+}
+SmallManor {
+  translation 94.4403 191.44 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "small manor(21)"
+}
+SmallManor {
+  translation -29.35 204.11 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "small manor(3)"
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 152.23 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(3)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 171.85 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(4)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 285.79 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(10)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 306.34 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(11)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 323.87 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(12)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation 98.9 327.92 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(15)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation 98.9 346.86 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(16)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation 98.9 365.66 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(17)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation 96.92 211.37 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(9)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation 96.48 171.85 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(8)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -126.66 300.44 0
+  rotation 0 0 1 -5.307179586466759e-06
+  scale 0.7
+  name "simple two-storey house(5)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -211.74 211.84 0
+  rotation 0 0 1 -1.5708053071795867
+  scale 0.7
+  name "simple two-storey house(13)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -233.83 211.84 0
+  rotation 0 0 1 -1.5708053071795867
+  scale 0.7
+  name "simple two-storey house(14)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -126.66 318.8 0
+  rotation 0 0 1 -5.307179586466759e-06
+  scale 0.7
+  name "simple two-storey house(6)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -126.66 336.11 0
+  rotation 0 0 1 -5.307179586466759e-06
+  scale 0.7
+  name "simple two-storey house(7)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+Oak {
+  translation -136.07 33.6 0
+  name "oak tree(9)"
+}
+Oak {
+  translation -135.43 40.8 0
+  name "oak tree(11)"
+}
+Oak {
+  translation -136.07 26.22 0
+  name "oak tree(7)"
+}
+Oak {
+  translation -136.07 19.9 0
+  name "oak tree(5)"
+}
+Oak {
+  translation -136.07 23.33 0
+  name "oak tree(6)"
+}
+Oak {
+  translation -126.49 41.44 0
+  name "oak tree(4)"
+}
+Oak {
+  translation -123.35 38.55 0
+  name "oak tree(3)"
+}
+Oak {
+  translation -130.07 41.65 0
+  name "oak tree(2)"
+}
+Oak {
+  translation -127.4 38.55 0
+  name "oak tree(1)"
+}
+ParkingLines {
+  translation -42.81 6.17 0.1
+  numberOfCarParks 8
+}
+ParkingLines {
+  translation -131.64 76.4 0.2
+  numberOfCarParks 36
+}
+ParkingLines {
+  translation -61.87 6.17 0.1
+  numberOfCarParks 8
+}
+Floor {
+  translation -78 -21 0
+  name "floor(6)"
+  size 125 14
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation -72 5 0
+  name "floor(7)"
+  size 139 12
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation 182 27 0
+  name "floor(12)"
+  size 111 55
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation 181 -43 0
+  name "floor(13)"
+  size 112 55
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation -213 -43 0
+  name "floor(16)"
+  size 118 55
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation -213 28 0
+  name "floor(17)"
+  size 118 55
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation -213 96 0
+  name "floor(18)"
+  size 118 50
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation -72 49 0
+  name "floor(8)"
+  size 141 10
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation -87 78 0.1
+  name "floor(10)"
+  size 103 10
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+BusStop {
+  translation -116.16 47.97 0
+  rotation 0 0 1 1.5708
+  scale 1.5
+  name "bus stop(1)"
+}
+SmallManor {
+  translation -86.79 47.03 0
+  rotation 0 0 1 1.5708
+  name "small manor(1)"
+}
+Bus {
+  hidden position_0_0 -1.0080064497139574e-13
+  hidden position2_0_0 3.273332783391245e-11
+  hidden position_0_1 -1.0080069756908369e-13
+  hidden position2_0_1 -3.273445680906245e-11
+  hidden position_0_2 2.8922445307921585e-10
+  hidden position_0_3 -1.8502816294941697e-09
+  hidden rotation_3 0 0.9999999999999999 0 4.726697290635586
+  hidden rotation_4 0 -1 0 0.8696104579646747
+  translation -131.08885085865904 3.761997294497992 0.47072650465963983
+  rotation 1.0186639325246499e-12 -4.773436682805789e-10 1 -3.1373163013320298
+  sensorsSlotFront [
+    ResidentialBuilding {
+      translation -92.65 52.25 0.000107091
+      rotation 2.3464099999870814e-06 -2.3464099999870814e-06 0.9999999999944944 1.5708
+    }
+    Museum {
+      translation -231.8 -96.52 0
+      rotation 0 0 1 3.14159
+    }
+    BigSassafras {
+      translation -57.31 40.94 -0.53
+      name "sassafras tree(4)"
+    }
+    BigSassafras {
+      translation -23.63 39.18 -0.53
+      name "sassafras tree(1)"
+    }
+  ]
+}
+Bench {
+  translation -127.15 9.22 0
+  rotation 0 0 1 -1.5707953071795862
+  name "bench(1)"
+}
+ParkingLines {
+  translation -100.1 6.17 0.1
+  numberOfCarParks 8
+}
+BusStop {
+  translation -133.99 8.95 0
+  rotation 0 0 1 -1.5707953071795862
+  scale 1.5
+}
+BusStop {
+  translation -106.48 223.52 0
+  rotation 0 0 1 1.5708
+  scale 1.5
+  name "bus stop(2)"
+}
+ParkingLines {
+  translation -80.85 6.17 0.1
+  numberOfCarParks 8
+}
+ParkingLines {
+  translation -43.5 -27.97 0.1
+  numberOfCarParks 8
+}
+ParkingLines {
+  translation 132.98 -52.82 0.1
+  numberOfCarParks 12
+}
+ParkingLines {
+  translation 132.98 -69.94 0.1
+  numberOfCarParks 12
+}
+ParkingLines {
+  translation 172.51 -21.63 0.1
+  numberOfCarParks 25
+}
+ParkingLines {
+  translation 132.98 -48.04 0.1
+  numberOfCarParks 12
+}
+ParkingLines {
+  translation -122.66 -27.97 0.1
+  numberOfCarParks 33
+}
+ParkingLines {
+  translation -52.03 47.41 0.1
+  numberOfCarParks 7
+}
+ParkingLines {
+  translation -78.17 47.41 0.1
+  numberOfCarParks 7
+}
+RoadIntersection {
+  translation -10 -8 0
+  rotation 0 0 1 0.7853996938995746
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+}
+RoadIntersection {
+  translation 119 -7.99231 0
+  rotation 0 0 1 0.7853996938995746
+  name "road intersection(9)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+RoadIntersection {
+  translation 119.1 63.1 0
+  rotation 0 0 1 0.7853996938995746
+  name "road intersection(11)"
+  connectedRoadIDs [
+    ""
+  ]
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+StopSign {
+  translation 125.6 56.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(3)"
+}
+RoadIntersection {
+  translation 119 -79 0
+  rotation 0 0 1 0.7853996938995746
+  name "road intersection(10)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+CrashBarrier {
+  translation -16.62 -88.0206 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "crash barrier(9)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+CrossRoadsTrafficLight {
+  translation -147.34 -8.01 0.2
+  name "cross road traffic light(2)"
+  size 13 11
+}
+CrossRoadsTrafficLight {
+  translation -9.82 -8.01 0.1
+  size 13 11
+}
+RoadIntersection {
+  translation -147 -8 0
+  rotation 0 0 1 0.7853996938995746
+  name "road intersection(2)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+}
+CrossRoadsTrafficLight {
+  translation 119.67 -7.85 0.3
+  name "cross road traffic light(4)"
+  size 13 11
+}
+RoadIntersection {
+  translation -147 -78.8 0
+  rotation 0 0 1 0.7854
+  name "road intersection(4)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+RoadIntersection {
+  translation -10 -78.8 0
+  rotation 0 0 1 0.7854
+  name "road intersection(5)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+RoadIntersection {
+  translation -147 63 0
+  rotation 0 0 1 0.7853996938995746
+  name "road intersection(3)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+}
+RoadIntersection {
+  translation -10 232.8 0
+  rotation 0 0 1 -0.785395307179586
+  name "road intersection(6)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+StopSign {
+  translation -2.86 225.76 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(7)"
+}
+StopSign {
+  translation -16.08 241.47 0
+  rotation 0 0 1 1.5708
+  name "stop sign(8)"
+}
+StopSign {
+  translation -81.06 238.97 0
+  rotation 0 0 1 1.5708
+  name "stop sign(9)"
+}
+RoadIntersection {
+  translation 119 232.8 0
+  rotation 0 0 1 -0.785395307179586
+  name "road intersection(12)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+CrashBarrier {
+  translation 237.06 54.9402 0
+  rotation 0 0 1 1.5708
+  name "crash barrier(5)"
+  path [
+    0 0 0
+    16 0 0
+  ]
+}
+CrashBarrier {
+  translation 128.58 225.29 0
+  rotation 0 0 1 1.5708
+  name "crash barrier(4)"
+  path [
+    0 0 0
+    16 0 0
+  ]
+}
+StopSign {
+  translation 125.37 225.76 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(6)"
+}
+RoadIntersection {
+  translation -147 232.7 0
+  rotation 0 0 1 -0.785395307179586
+  name "road intersection(8)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+RoadIntersection {
+  translation -74.2333 232.569 0
+  rotation 0 0 1 -0.785395307179586
+  name "road intersection(7)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+  locked FALSE
+}
+StopSign {
+  translation -153.55 238.97 0
+  rotation 0 0 1 1.5708
+  name "stop sign(10)"
+}
+CautionSign {
+  translation 11.07 -1.25995 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "caution sign(3)"
+}
+CautionSign {
+  translation -15.3 7.64 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "caution sign(2)"
+}
+CrossRoadsTrafficLight {
+  translation -9.82 63.15 0.1
+  name "cross road traffic light(1)"
+  size 13 11
+}
+RoadIntersection {
+  translation -10 63 0
+  rotation 0 0 1 0.7853996938995746
+  name "road intersection(1)"
+  roadsWidth 10
+  startRoadsLine [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startRoadBorderWidth 3.5
+}
+StraightRoadSegment {
+  translation -137 -8 0
+  name "road(1)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 117
+}
+StraightRoadSegment {
+  translation -273.94 -8 0
+  name "road(23)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 117
+  locked FALSE
+}
+CrashBarrier {
+  translation -273.45 69.0785 0
+  rotation 0 0 1 -1.5707953071795862
+  name "crash barrier(13)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+CrashBarrier {
+  translation -273.45 238.888 0
+  rotation 0 0 1 -1.5707953071795862
+  name "crash barrier(14)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+StraightRoadSegment {
+  translation -273.94 63 0
+  name "road(25)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 117
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -273.94 232.67 0
+  name "road(26)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 117
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -273.94 -78.77 0
+  name "road(24)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 117
+  locked FALSE
+}
+CrashBarrier {
+  translation -273.45 -1.8215 0
+  rotation 0 0 1 -1.5707953071795862
+  name "crash barrier(12)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+CrashBarrier {
+  translation -273.45 -72.7515 0
+  rotation 0 0 1 -1.5707953071795862
+  name "crash barrier(11)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+CrossRoadsTrafficLight {
+  translation -147.24 63.33 0.3
+  name "cross road traffic light(3)"
+  size 13 11
+}
+SmallManor {
+  translation -29.35 134.42 0
+  rotation 0 0 -1 -5.307179586466759e-06
+}
+CautionSign {
+  translation -43.84 -14.23 0
+  rotation 0 0 1 3.14159
+}
+CautionSign {
+  translation -4.25 -22.41 0
+  rotation 0 0 1 -1.5707953071795862
+  name "caution sign(1)"
+}
+Bench {
+  translation -114.87 9.27 0
+  rotation 0 0 1 -1.5707953071795862
+}
+StraightRoadSegment {
+  translation 0 63 0
+  name "road(5)"
+  width 17
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  length 109
+}
+StraightRoadSegment {
+  translation 0 232.65 0
+  name "road(21)"
+  width 17
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  length 109
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -137.75 63 0
+  name "road(4)"
+  width 17
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  length 118
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -137.03 232.61 0
+  name "road(12)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "continuous"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 52.8
+  locked FALSE
+}
+StopSign {
+  translation -139.92 224.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(11)"
+}
+StraightRoadSegment {
+  translation -64.42 232.61 0
+  name "road(13)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "continuous"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 44.5
+  locked FALSE
+}
+ParkingLines {
+  translation 25.45 30.54 0.1
+  numberOfCarParks 8
+}
+ParkingLines {
+  translation -268.44 42.55 0.1
+  numberOfCarParks 44
+}
+ParkingLines {
+  translation -272.27 -26.14 0.1
+  numberOfCarParks 46
+}
+ParkingLines {
+  translation 25.45 35.24 0.1
+  numberOfCarParks 8
+}
+Floor {
+  translation 22 26 0
+  name "floor(3)"
+  size 47 57
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 0 0
+  }
+}
+Floor {
+  translation 77 26 0
+  size 63 57
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+BigSassafras {
+  translation 93.33 42.98 -0.53
+  name "sassafras tree(12)"
+}
+BigSassafras {
+  translation 95.41 48.07 -0.53
+  name "sassafras tree(11)"
+}
+Floor {
+  translation 22 26 0
+  name "floor(2)"
+  size 47 57
+  tileSize 1 1
+  appearance Parquetry {
+    type "dark strip"
+    colorOverride 0 0 0
+  }
+}
+ParkingLines {
+  translation 3.34 35.3 0.1
+  rotation 0 0 1 1.5708
+  numberOfCarParks 8
+}
+ParkingLines {
+  translation 0.16 26.21 0.1
+  numberOfCarParks 8
+}
+ParkingLines {
+  translation 128.21 3.59 0.1
+  numberOfCarParks 45
+}
+ParkingLines {
+  translation 0.11 21.56 0.1
+  numberOfCarParks 8
+}
+SimpleBuilding {
+  translation 36.55 12.5 0
+  rotation 0 0 1 -1.5707953071795862
+  floorHeight 2
+  floorNumber 2
+  roofColor [
+    0 0 0
+  ]
+}
+BigSassafras {
+  translation 51.88 2.45 -0.53
+  name "sassafras tree(2)"
+}
+BigSassafras {
+  translation 51.88 48.52 -0.53
+  name "sassafras tree(9)"
+}
+BigSassafras {
+  translation 51.88 41.74 -0.53
+  name "sassafras tree(14)"
+}
+BigSassafras {
+  translation 88.33 48.31 -0.53
+  name "sassafras tree(10)"
+}
+BigSassafras {
+  translation 99.92 42.65 -0.53
+  name "sassafras tree(13)"
+}
+BigSassafras {
+  translation 107.15 -19.48 -0.53
+  name "sassafras tree(3)"
+}
+StripBuilding {
+  translation 232.71 16.7008 -0.00109204
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(3)"
+}
+Church {
+  translation 5.48 7.31001 0
+  rotation 0 0 1 -1.5707953071795862
+}
+StraightRoadSegment {
+  translation -10 -69.1 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(2)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  length 50
+  locked FALSE
+}
+StraightRoadSegment {
+  translation 119.16 -69.1 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(17)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  length 51
+  locked FALSE
+}
+StraightRoadSegment {
+  translation 119.16 2.02 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(19)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  length 51
+  locked FALSE
+}
+Floor {
+  translation 52 -30 0
+  name "floor(4)"
+  size 113 34
+  tileSize 1 1
+  appearance Parquetry {
+    colorOverride 0 1 0
+  }
+}
+StraightRoadSegment {
+  translation -10 2 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(3)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 51
+}
+StraightRoadSegment {
+  translation -10 72.93 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(10)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 150
+  locked FALSE
+}
+StraightRoadSegment {
+  translation 119.11 72.9302 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(20)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 150
+  locked FALSE
+}
+StopSign {
+  translation 111.59 239.13 0
+  rotation 0 0 1 1.57079
+  name "stop sign(5)"
+}
+StraightRoadSegment {
+  translation -146.95 72.9299 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(11)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 150
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -74.24 242.44 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(14)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 150
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -9.97 242.83 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(22)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 150
+  locked FALSE
+}
+CrashBarrier {
+  translation -82.17 391.9 0
+  name "crash barrier(1)"
+  path [
+    0 0 0
+    16 0 0
+  ]
+}
+CrashBarrier {
+  translation -152.14 392.4 0
+  name "crash barrier(3)"
+  path [
+    0 0 0
+    12 0 0
+  ]
+}
+StraightRoadSegment {
+  translation 118.98 242.83 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(27)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  rightBarrier TRUE
+  length 150
+  locked FALSE
+}
+CrashBarrier {
+  translation 110.57 392.23 0
+  name "crash barrier(2)"
+  path [
+    0 0 0
+    14 0 0
+  ]
+}
+StraightRoadSegment {
+  translation -147.05 242.44 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(15)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  leftBarrier TRUE
+  length 150
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -147 2 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(6)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 51
+}
+StraightRoadSegment {
+  translation -147 -68.8 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(7)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 51
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -20.02 -78.8299 0
+  rotation 0 0 1 -3.1415853071795863
+  name "road(8)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 117
+  locked FALSE
+}
+CrashBarrier {
+  translation -153.61 -88.0212 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "crash barrier(10)"
+  path [
+    0 0 0
+    13 0 0
+  ]
+}
+StraightRoadSegment {
+  translation 108.98 -78.8296 0
+  rotation 0 0 1 -3.1415853071795863
+  name "road(9)"
+  width 10
+  lines [
+    RoadLine {
+      color 1 1 0
+    }
+  ]
+  startingRoadBorderWidth 3.5
+  endingRoadBorderWidth 3.5
+  length 109
+  locked FALSE
+}
+CrossRoadsTrafficLight {
+  translation -9.38 -79.14 0.4
+  name "cross road traffic light(5)"
+  size 13 11
+}
+FastFoodRestaurant {
+  translation 19.43 6.21 0
+  rotation 0 0 1 -1.5707953071795862
+}
+StripBuilding {
+  translation 6.30689e-05 -17.17 -1.47988e-10
+  rotation 2.3464099999870814e-06 2.3464099999870814e-06 0.9999999999944944 1.5708
+}
+StripBuilding {
+  translation 105.609 276.48 -0.000495608
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(9)"
+}
+StripBuilding {
+  translation -266.13 -32.9405 0.00124893
+  rotation 2.3464099999870814e-06 2.3464099999870814e-06 0.9999999999944944 1.5708
+  name "strip building(6)"
+}
+StripBuilding {
+  translation -163.79 9.2495 0.000768667
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(7)"
+}
+StripBuilding {
+  translation -163.79 85.6495 0.000768667
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(8)"
+}
+StripBuilding {
+  translation 171.64 -28.32 -0.000805476
+  rotation 2.3464099999870814e-06 2.3464099999870814e-06 0.9999999999944944 1.5708
+  name "strip building(4)"
+  length 60
+}
+StripBuilding {
+  translation -47.11 87.68 0.000221078
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(2)"
+  length 91
+}
+StripBuilding {
+  translation 69.36 81.78 -0.0003255
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(5)"
+  length 60
+}
+StripBuilding {
+  translation -20.9199 13.81 9.81749e-05
+  rotation 2.3464199999870813e-06 -2.3464199999870813e-06 0.9999999999944944 -1.5707953071795862
+  name "strip building(1)"
+}
+Oak {
+  translation -136.07 29.99 0
+  name "oak tree(8)"
+}
+BigSassafras {
+  translation 61.34 2.45 -0.53
+}
+BigSassafras {
+  translation 56 1.58 -0.53
+  name "sassafras tree(1)"
+}
+SmallResidentialTower {
+  translation -91.21 -48.12 0
+  rotation 0 0 1 1.5708
+  numberOfFloors 4
+}
+SmallResidentialTower {
+  translation -96.57 -48.12 0
+  rotation 0 0 1 1.5708
+  name "residential tower(1)"
+  numberOfFloors 4
+}
+SmallResidentialTower {
+  translation -107.5 -48.12 0
+  rotation 0 0 1 1.5708
+  name "residential tower(3)"
+  numberOfFloors 4
+}
+SmallResidentialTower {
+  translation -126.8 352.43 0
+  rotation 0 0 1 -3.1415853071795863
+  name "residential tower(6)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -126.8 364.86 0
+  rotation 0 0 1 -3.1415853071795863
+  name "residential tower(7)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -60.22 368.58 0
+  rotation 0 0 1 -3.1415853071795863
+  name "residential tower(14)"
+  numberOfFloors 2
+}
+SmallResidentialTower {
+  translation -102 -48.12 0
+  rotation 0 0 1 1.5708
+  name "residential tower(2)"
+  numberOfFloors 4
+}
+Oak {
+  translation -130.07 38.55 0
+}
+Oak {
+  translation -136.07 37.42 0
+  name "oak tree(10)"
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 87.35 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 102.73 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(1)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+SimpleTwoFloorsHouse {
+  translation -27.41 117.53 0
+  rotation 0 0 1 3.14159
+  scale 0.7
+  name "simple two-storey house(2)"
+  appearance PBRAppearance {
+    baseColor 0.63 0.71 0.69
+    roughness 1
+    metalness 0
+  }
+}
+CrashBarrier {
+  translation -17.73 391.9 0
+  path [
+    0 0 0
+    16 0 0
+  ]
+}

@@ -1,0 +1,37 @@
+running egg_info
+creating build/my_environments/my_environments.egg-info
+writing build/my_environments/my_environments.egg-info/PKG-INFO
+writing dependency_links to build/my_environments/my_environments.egg-info/dependency_links.txt
+writing entry points to build/my_environments/my_environments.egg-info/entry_points.txt
+writing requirements to build/my_environments/my_environments.egg-info/requires.txt
+writing top-level names to build/my_environments/my_environments.egg-info/top_level.txt
+writing manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+reading manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+writing manifest file 'build/my_environments/my_environments.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build
+creating /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib
+creating /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib/my_environments
+copying my_environments/__init__.py -> /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib/my_environments
+running install
+running install_lib
+creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments
+copying /home/hadnan/ros2_ws/src/my_environments/build/my_environments/build/lib/my_environments/__init__.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments
+byte-compiling /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index
+creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index/resource_index
+creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index/resource_index/packages
+copying resource/my_environments -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/ament_index/resource_index/packages
+copying package.xml -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments
+creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+copying launch/outdoor_launch.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+copying launch/indoor_launch.py -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/launch
+creating /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/worlds
+copying worlds/outdoor.wbt -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/worlds
+copying worlds/indoor.wbt -> /home/hadnan/ros2_ws/src/my_environments/install/my_environments/share/my_environments/worlds
+running install_egg_info
+Copying build/my_environments/my_environments.egg-info to /home/hadnan/ros2_ws/src/my_environments/install/my_environments/lib/python3.10/site-packages/my_environments-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/hadnan/ros2_ws/src/my_environments/build/my_environments/install.log'
