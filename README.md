@@ -1,4 +1,4 @@
-# cs460
+# CS460 Project 
 
 ## Overview
 
